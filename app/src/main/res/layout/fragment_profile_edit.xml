@@ -6,7 +6,7 @@
 
         <variable
             name="user"
-            type="com.kenova.agribiz.viewobject.User" />
+            type="com.kenova.classifieds.viewobject.User" />
     </data>
 
     <androidx.core.widget.NestedScrollView
@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:background="@color/md_grey_100"
             android:paddingBottom="@dimen/space_16"
-            tools:context="com.kenova.agribiz.ui.user.ProfileFragment">
+            tools:context="com.kenova.classifieds.ui.user.ProfileFragment">
 
             <ImageView
                 android:id="@+id/userCoverImageView"

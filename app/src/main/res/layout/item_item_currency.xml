@@ -8,7 +8,7 @@
 
         <variable
             name="itemCurrency"
-            type="com.kenova.agribiz.viewobject.ItemCurrency" />
+            type="com.kenova.classifieds.viewobject.ItemCurrency" />
 
     </data>
 

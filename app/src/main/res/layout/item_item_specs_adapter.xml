@@ -4,7 +4,7 @@
 
     <data>
         <variable
-            name="itemSpecs" type="com.kenova.agribiz.viewobject.ItemSpecs" />
+            name="itemSpecs" type="com.kenova.classifieds.viewobject.ItemSpecs" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

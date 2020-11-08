@@ -8,7 +8,7 @@
 
         <variable
             name="blog"
-            type="com.kenova.agribiz.viewobject.Blog" />
+            type="com.kenova.classifieds.viewobject.Blog" />
     </data>
 
 

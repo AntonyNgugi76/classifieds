@@ -6,7 +6,7 @@
 
         <variable
             name="notification"
-            type="com.kenova.agribiz.viewobject.Noti" />
+            type="com.kenova.classifieds.viewobject.Noti" />
     </data>
 
     <androidx.core.widget.NestedScrollView

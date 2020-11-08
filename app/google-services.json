@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "995172798997",
-    "firebase_url": "https://ikofood-965f3.firebaseio.com",
-    "project_id": "ikofood-965f3",
-    "storage_bucket": "ikofood-965f3.appspot.com"
+    "project_number": "86524281840",
+    "firebase_url": "https://classifieds-2c2ae.firebaseio.com",
+    "project_id": "classifieds-2c2ae",
+    "storage_bucket": "classifieds-2c2ae.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:995172798997:android:f73d01666c26613c9a341c",
+        "mobilesdk_app_id": "1:86524281840:android:e4133e846ba530376e9335",
         "android_client_info": {
-          "package_name": "com.kenova.agribiz"
+          "package_name": "com.kenova.classifieds"
         }
       },
       "oauth_client": [
         {
-          "client_id": "995172798997-oqirou1fhcr34rsrucmgg27j6r75cl99.apps.googleusercontent.com",
+          "client_id": "86524281840-6kfn4555qq8jbmrtrppbgn3shvhil3ua.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.kenova.agribiz",
-            "certificate_hash": "af72909a5fe663c25f4900f607538356a77ab3d2"
+            "package_name": "com.kenova.classifieds",
+            "certificate_hash": "afa3d4a3b97983be8cafee572430b2b04db6d382"
           }
         },
         {
-          "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+          "client_id": "86524281840-o47it9hjlb57f6opf8fqa8neri7nv35n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDJJ5hUrDEB-yR5cNci1ta3YW6Fb_KOzBE"
+          "current_key": "AIzaSyBbG1PRA32dPyREGIDVabmvHzACSqjIoRg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+              "client_id": "86524281840-o47it9hjlb57f6opf8fqa8neri7nv35n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

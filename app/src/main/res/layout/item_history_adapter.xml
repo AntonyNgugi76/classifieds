@@ -7,7 +7,7 @@
 
         <variable
             name="history"
-            type="com.kenova.agribiz.viewobject.ItemHistory" />
+            type="com.kenova.classifieds.viewobject.ItemHistory" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

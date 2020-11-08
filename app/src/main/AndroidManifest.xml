@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kenova.agribiz">
+    package="com.kenova.classifieds">
 
     <uses-feature
         android:name="android.hardware.camera.autofocus"
@@ -29,7 +29,7 @@
 
 
     <application
-        android:name="com.kenova.agribiz.PsApp"
+        android:name="com.kenova.classifieds.PsApp"
         android:requestLegacyExternalStorage="true"
         android:allowBackup="false"
         android:fullBackupContent="false"
@@ -39,21 +39,21 @@
         android:largeHeap="true"
         android:theme="@style/Base.PSTheme"
         tools:replace="android:label">
-        <activity android:name="com.kenova.agribiz.ui.user.phonelogin.PhoneLoginActivity" />
-        <activity android:name="com.kenova.agribiz.ui.safetytip.SafetyTipsActivity" />
-        <activity android:name="com.kenova.agribiz.ui.user.verifyphone.VerifyMobileActivity" />
-        <activity android:name="com.kenova.agribiz.ui.item.itemfromfollower.ItemFromFollowerListActivity" />
-        <activity android:name="com.kenova.agribiz.ui.location.LocationActivity" />
-        <activity android:name="com.kenova.agribiz.ui.customcamera.setting.CameraSettingActivity" />
-        <activity android:name="com.kenova.agribiz.ui.customcamera.CameraActivity" />
-        <activity android:name="com.kenova.agribiz.ui.item.itemtype.SearchViewActivity" />
+        <activity android:name="com.kenova.classifieds.ui.user.phonelogin.PhoneLoginActivity" />
+        <activity android:name="com.kenova.classifieds.ui.safetytip.SafetyTipsActivity" />
+        <activity android:name="com.kenova.classifieds.ui.user.verifyphone.VerifyMobileActivity" />
+        <activity android:name="com.kenova.classifieds.ui.item.itemfromfollower.ItemFromFollowerListActivity" />
+        <activity android:name="com.kenova.classifieds.ui.location.LocationActivity" />
+        <activity android:name="com.kenova.classifieds.ui.customcamera.setting.CameraSettingActivity" />
+        <activity android:name="com.kenova.classifieds.ui.customcamera.CameraActivity" />
+        <activity android:name="com.kenova.classifieds.ui.item.itemtype.SearchViewActivity" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.entry.ItemEntryActivity"
+            android:name="com.kenova.classifieds.ui.item.entry.ItemEntryActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.apploading.AppLoadingActivity"
+            android:name="com.kenova.classifieds.ui.apploading.AppLoadingActivity"
             android:label="@string/app__app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -71,7 +71,7 @@
 
         </activity>
         <activity
-            android:name="com.kenova.agribiz.MainActivity"
+            android:name="com.kenova.classifieds.MainActivity"
             android:label="@string/app__app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
@@ -79,22 +79,22 @@
             android:theme="@style/SplashTheme"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.rating.RatingListActivity"
+            android:name="com.kenova.classifieds.ui.item.rating.RatingListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.city.selectedcity.SelectedCityActivity"
+            android:name="com.kenova.classifieds.ui.city.selectedcity.SelectedCityActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.subcategory.SubCategoryActivity"
+            android:name="com.kenova.classifieds.ui.subcategory.SubCategoryActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.map.MapActivity"
+            android:name="com.kenova.classifieds.ui.item.map.MapActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" /> <!-- <provider -->
@@ -108,73 +108,73 @@
         <!-- </meta-data> -->
         <!-- </provider> -->
         <activity
-            android:name="com.kenova.agribiz.ui.item.detail.ItemActivity"
+            android:name="com.kenova.classifieds.ui.item.detail.ItemActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.category.list.CategoryListActivity"
+            android:name="com.kenova.classifieds.ui.category.list.CategoryListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.ProfileEditActivity"
+            android:name="com.kenova.classifieds.ui.user.ProfileEditActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.UserRegisterActivity"
+            android:name="com.kenova.classifieds.ui.user.UserRegisterActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.UserFBRegisterActivity"
+            android:name="com.kenova.classifieds.ui.user.UserFBRegisterActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.UserLoginActivity"
+            android:name="com.kenova.classifieds.ui.user.UserLoginActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.UserForgotPasswordActivity"
+            android:name="com.kenova.classifieds.ui.user.UserForgotPasswordActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.PasswordChangeActivity"
+            android:name="com.kenova.classifieds.ui.user.PasswordChangeActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.search.specialfilterbyattributes.FilteringActivity"
+            android:name="com.kenova.classifieds.ui.item.search.specialfilterbyattributes.FilteringActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.notification.detail.NotificationActivity"
+            android:name="com.kenova.classifieds.ui.notification.detail.NotificationActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.setting.SettingActivity"
+            android:name="com.kenova.classifieds.ui.setting.SettingActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.notification.setting.NotificationSettingActivity"
+            android:name="com.kenova.classifieds.ui.notification.setting.NotificationSettingActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.setting.appinfo.AppInfoActivity"
+            android:name="com.kenova.classifieds.ui.setting.appinfo.AppInfoActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.favourite.FavouriteListActivity"
+            android:name="com.kenova.classifieds.ui.item.favourite.FavouriteListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
@@ -183,103 +183,103 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
         <activity
-            android:name="com.kenova.agribiz.ui.notification.list.NotificationListActivity"
+            android:name="com.kenova.classifieds.ui.notification.list.NotificationListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.search.searchlist.SearchListActivity"
+            android:name="com.kenova.classifieds.ui.item.search.searchlist.SearchListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.gallery.GalleryActivity"
+            android:name="com.kenova.classifieds.ui.gallery.GalleryActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.readmore.ReadMoreActivity"
+            android:name="com.kenova.classifieds.ui.item.readmore.ReadMoreActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.gallery.detail.GalleryDetailActivity"
+            android:name="com.kenova.classifieds.ui.gallery.detail.GalleryDetailActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.dashboard.DashboardSearchByCategoryActivity"
+            android:name="com.kenova.classifieds.ui.dashboard.DashboardSearchByCategoryActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.history.UserHistoryListActivity"
+            android:name="com.kenova.classifieds.ui.item.history.UserHistoryListActivity"
             android:label="@string/title__activity_user_history_list"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.loginUserItem.LoginUserItemListActivity"
+            android:name="com.kenova.classifieds.ui.item.loginUserItem.LoginUserItemListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.userlist.UserListActivity"
+            android:name="com.kenova.classifieds.ui.user.userlist.UserListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.verifyemail.VerifyEmailActivity"
+            android:name="com.kenova.classifieds.ui.user.verifyemail.VerifyEmailActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.user.userlist.detail.UserDetailActivity"
+            android:name="com.kenova.classifieds.ui.user.userlist.detail.UserDetailActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.blog.list.BlogListActivity"
+            android:name="com.kenova.classifieds.ui.blog.list.BlogListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.blog.detail.BlogDetailActivity"
+            android:name="com.kenova.classifieds.ui.blog.detail.BlogDetailActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.forceupdate.ForceUpdateActivity"
+            android:name="com.kenova.classifieds.ui.forceupdate.ForceUpdateActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.map.mapFilter.MapFilteringActivity"
+            android:name="com.kenova.classifieds.ui.item.map.mapFilter.MapFilteringActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.chat.chat.ChatActivity"
+            android:name="com.kenova.classifieds.ui.chat.chat.ChatActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.chat.chatimage.ChatImageFullScreenActivity"
+            android:name="com.kenova.classifieds.ui.chat.chatimage.ChatImageFullScreenActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.privacypolicy.PrivacyPolicyActivity"
+            android:name="com.kenova.classifieds.ui.privacypolicy.PrivacyPolicyActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.item.promote.ItemPromoteActivity"
+            android:name="com.kenova.classifieds.ui.item.promote.ItemPromoteActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.kenova.agribiz.ui.stripe.StripeActivity"
+            android:name="com.kenova.classifieds.ui.stripe.StripeActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Base.PSTheme" />
@@ -302,7 +302,7 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true" />
         <meta-data
-            android:name="com.kenova.agribiz.utils.CustomCachingGlideModule"
+            android:name="com.kenova.classifieds.utils.CustomCachingGlideModule"
             android:value="AppGlideModule" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
@@ -316,7 +316,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.kenova.agribiz.fileprovider"
+            android:authorities="com.kenova.classifieds.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -324,7 +324,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <service android:name="com.kenova.agribiz.utils.FirebaseMessagingService"
+        <service android:name="com.kenova.classifieds.utils.FirebaseMessagingService"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.service.notification.NotificationListenerService" />-->

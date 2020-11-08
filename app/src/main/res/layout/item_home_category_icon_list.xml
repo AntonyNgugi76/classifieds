@@ -6,7 +6,7 @@
 
         <variable
             name="cat"
-            type="com.kenova.agribiz.viewobject.ItemCategory" />
+            type="com.kenova.classifieds.viewobject.ItemCategory" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

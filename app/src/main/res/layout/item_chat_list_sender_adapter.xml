@@ -8,7 +8,7 @@
 
         <variable
             name="message"
-            type="com.kenova.agribiz.viewobject.messageHolder.Message" />
+            type="com.kenova.classifieds.viewobject.messageHolder.Message" />
     </data>
 
 

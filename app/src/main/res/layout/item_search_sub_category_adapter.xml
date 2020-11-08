@@ -8,7 +8,7 @@
 
         <variable
             name="subCategory"
-            type="com.kenova.agribiz.viewobject.ItemSubCategory" />
+            type="com.kenova.classifieds.viewobject.ItemSubCategory" />
 
     </data>
 

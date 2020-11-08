@@ -6,7 +6,7 @@
 
         <variable
             name="rating"
-            type="com.kenova.agribiz.viewobject.Rating" />
+            type="com.kenova.classifieds.viewobject.Rating" />
 
     </data>
 

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="city"
-            type="com.kenova.agribiz.viewobject.City" />
+            type="com.kenova.classifieds.viewobject.City" />
     </data>
 
     <androidx.core.widget.NestedScrollView

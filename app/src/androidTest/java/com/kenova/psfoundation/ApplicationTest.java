@@ -1,4 +1,4 @@
-package com.kenova.agribiz;
+package com.kenova.classifieds;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

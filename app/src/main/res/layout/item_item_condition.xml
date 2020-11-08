@@ -8,7 +8,7 @@
 
         <variable
             name="itemCondition"
-            type="com.kenova.agribiz.viewobject.ItemCondition" />
+            type="com.kenova.classifieds.viewobject.ItemCondition" />
 
     </data>
 

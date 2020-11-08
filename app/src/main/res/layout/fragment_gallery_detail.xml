@@ -5,9 +5,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.kenova.agribiz.ui.gallery.detail.GalleryDetailFragment">
+        tools:context="com.kenova.classifieds.ui.gallery.detail.GalleryDetailFragment">
 
-        <com.kenova.agribiz.utils.ExtendedViewPager
+        <com.kenova.classifieds.utils.ExtendedViewPager
             android:id="@+id/view_pager"
             android:background="@color/image_detail_bg"
             android:layout_width="match_parent"

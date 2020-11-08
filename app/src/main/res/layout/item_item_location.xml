@@ -8,7 +8,7 @@
 
         <variable
             name="itemLocation"
-            type="com.kenova.agribiz.viewobject.ItemLocation" />
+            type="com.kenova.classifieds.viewobject.ItemLocation" />
 
     </data>
 
